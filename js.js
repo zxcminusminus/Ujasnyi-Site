@@ -5,7 +5,7 @@ let image;
 let title;
 //let currentSlide;
 
-function createSlide(){пше
+function createSlide(){
      slide = document.createElement("div");
      slide.classList.add("activities_slide");
 
@@ -32,7 +32,6 @@ let counter = 1;
 Array.from(slides).forEach(currentSlide=>{
     currentSlide.src = `party_images/party${counter}.png`;
     counter++;
-    console.log('srabotal')
 })
 
 
